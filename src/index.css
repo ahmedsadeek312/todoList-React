@@ -1,13 +1,85 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.logo {
+  margin-left: 10%;
+  margin-top: 3%;
+  color:rgb(211, 44, 161);
+  font-size: 1.5rem;
+}
+.myP {
+  display: inline-block;
+  font-size: 2rem;
+  margin-left: 28%;
+  text-transform: capitalize;
+  margin-right: 1%;
+  font-weight: 600;
+}
+.add_input {
+  font-size: 1.5rem;
+}
+.add_input:focus {
+  background-color: snow;
+}
+.submit_but {
+  display: block;
+  margin-left: 40%;
+  margin-top: 1%;
+  font-size: 2rem;
+  text-transform: capitalize;
+  width: 20%;
+}
+.submit_but:hover {
+  color: wheat;
+  width: 30%;
+  background-color: steelblue;
+  cursor: pointer;
+  font-weight: 400;
+  margin-left: 35%;
+  font-size: 2.5rem;
+  transition: all 0.8s;
+}
+.my_ul {
+  background-color: rgb(85, 153, 216);
+  position: relative;
+  font-size: 1.75rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+.my_li {
+  padding-top: 20px;
+  text-decoration: none;
+  color:antiquewhite;
+  font-weight: 600;
+}
+.my_li button {
+  font-size: 1.75rem;
+  text-transform: capitalize;
+}
+.space_here {
+  content: "";
+  left: 0;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  height: 2%;
+  background-color: antiquewhite;
+}
+.my_li button:hover{
+  cursor: pointer;
+  background-color: brown;
+  color: antiquewhite;
+  transition: all 0.8s;
 }
